@@ -1,10 +1,72 @@
-# Getting Started with Create React App
+# Penang Tourism Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application showcasing Penang's tourist attractions, food, hotels, and a community section for sharing experiences.
+
+## Features
+
+- Browse Penang attractions
+- Explore local food spots
+- Find hotels
+- Community section for sharing experiences and photos
+- Like and interact with community posts
+
+## Tech Stack
+
+- Frontend: React.js with TypeScript
+- Backend: Node.js with Express
+- Database: MongoDB Atlas
+- Image Storage: Cloudinary
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm
+- MongoDB Atlas account
+- Cloudinary account
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd Penang-Attractions-Web
+   ```
+
+2. Install dependencies for both frontend and backend:
+   ```bash
+   # Install frontend dependencies
+   npm install
+
+   # Install backend dependencies
+   cd server
+   npm install
+   ```
+
+3. Set up environment variables:
+   - Copy `.env.example` to `.env` in the server directory
+   - Update the following variables in `.env`:
+     ```
+     PORT=5001
+     MONGODB_URI=your_mongodb_uri
+     CLOUDINARY_CLOUD_NAME=your_cloud_name
+     CLOUDINARY_API_KEY=your_api_key
+     CLOUDINARY_API_SECRET=your_api_secret
+     ```
+
+4. Start the development servers:
+   ```bash
+   # Start backend server (from server directory)
+   npm run dev
+
+   # Start frontend (from root directory)
+   npm start
+   ```
+
+5. Access the application:
+   - Frontend: http://localhost:3001
+   - Backend: http://localhost:5001
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -39,8 +101,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

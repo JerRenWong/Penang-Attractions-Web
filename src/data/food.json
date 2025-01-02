@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "name": "Street Food",
+      "items": [
+        {
+          "id": 1,
+          "name": "Char Kway Teow",
+          "description": "Famous stir-fried flat rice noodles with prawns, cockles, and bean sprouts in a savory sauce.",
+          "location": "Siam Road Char Koay Teow",
+          "price": "RM 7-9",
+          "rating": 4.8,
+          "image": "https://placehold.co/600x400/f44336/ffffff?text=Char+Kway+Teow",
+          "tags": ["Noodles", "Seafood", "Spicy", "Popular"]
+        },
+        {
+          "id": 2,
+          "name": "Penang Laksa",
+          "description": "Tangy and spicy fish-based soup with thick rice noodles, topped with fresh herbs and vegetables.",
+          "location": "Air Itam Laksa",
+          "price": "RM 6-8",
+          "rating": 4.7,
+          "image": "https://placehold.co/600x400/f44336/ffffff?text=Penang+Laksa",
+          "tags": ["Noodles", "Soup", "Spicy", "Seafood"]
+        }
+      ]
+    },
+    {
+      "name": "Local Favorites",
+      "items": [
+        {
+          "id": 3,
+          "name": "Nasi Kandar",
+          "description": "Rice served with various curry dishes and side dishes, a perfect blend of Indian and Malay flavors.",
+          "location": "Line Clear Nasi Kandar",
+          "price": "RM 10-15",
+          "rating": 4.6,
+          "image": "https://placehold.co/600x400/f44336/ffffff?text=Nasi+Kandar",
+          "tags": ["Rice", "Curry", "Indian", "Spicy"]
+        },
+        {
+          "id": 4,
+          "name": "Hokkien Mee",
+          "description": "Prawn noodle soup with a rich and spicy broth, served with pork, prawns, and bean sprouts.",
+          "location": "Presgrave Street",
+          "price": "RM 8-12",
+          "rating": 4.5,
+          "image": "https://placehold.co/600x400/f44336/ffffff?text=Hokkien+Mee",
+          "tags": ["Noodles", "Soup", "Seafood", "Chinese"]
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "id": 5,
+          "name": "Cendol",
+          "description": "Traditional dessert with green rice flour jelly, coconut milk, and palm sugar syrup.",
+          "location": "Penang Road Famous Teochew Chendul",
+          "price": "RM 4-6",
+          "rating": 4.4,
+          "image": "https://placehold.co/600x400/f44336/ffffff?text=Cendol",
+          "tags": ["Dessert", "Sweet", "Cold", "Traditional"]
+        },
+        {
+          "id": 6,
+          "name": "Ice Kacang",
+          "description": "Shaved ice dessert with red beans, sweet corn, jelly, and various syrups.",
+          "location": "New World Park Food Court",
+          "price": "RM 5-7",
+          "rating": 4.3,
+          "image": "https://placehold.co/600x400/f44336/ffffff?text=Ice+Kacang",
+          "tags": ["Dessert", "Sweet", "Cold", "Popular"]
+        }
+      ]
+    },
+    {
+      "name": "Dim Sum",
+      "items": [
+        {
+          "id": 7,
+          "name": "Dim Sum Feast",
+          "description": "Various steamed and fried dumplings, buns, and other Chinese delicacies.",
+          "location": "Maxim Dim Sum",
+          "price": "RM 15-25 per person",
+          "rating": 4.5,
+          "image": "https://placehold.co/600x400/f44336/ffffff?text=Dim+Sum",
+          "tags": ["Chinese", "Breakfast", "Dumplings", "Tea"]
+        },
+        {
+          "id": 8,
+          "name": "Siew Mai",
+          "description": "Steamed pork and shrimp dumplings, a dim sum classic.",
+          "location": "Ming Xiang Tai",
+          "price": "RM 5-7",
+          "rating": 4.4,
+          "image": "https://placehold.co/600x400/f44336/ffffff?text=Siew+Mai",
+          "tags": ["Chinese", "Dumplings", "Pork", "Seafood"]
+        }
+      ]
+    }
+  ]
+}

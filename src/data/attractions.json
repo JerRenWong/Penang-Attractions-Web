@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "name": "Heritage Sites",
+      "items": [
+        {
+          "id": 1,
+          "name": "Georgetown Heritage Zone",
+          "description": "UNESCO World Heritage Site featuring unique architecture, street art, and cultural landmarks.",
+          "location": "Georgetown, Penang",
+          "entryFee": "Free",
+          "openingHours": "24/7",
+          "rating": 4.8,
+          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Georgetown+Heritage",
+          "tags": ["UNESCO", "Culture", "Architecture", "History"]
+        },
+        {
+          "id": 2,
+          "name": "Cheong Fatt Tze Mansion",
+          "description": "The Blue Mansion - a stunning example of Chinese architecture and craftsmanship.",
+          "location": "14, Leith Street, Georgetown",
+          "entryFee": "RM 25",
+          "openingHours": "11:00 AM - 3:00 PM",
+          "rating": 4.6,
+          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Blue+Mansion",
+          "tags": ["Architecture", "History", "Guided Tours"]
+        }
+      ]
+    },
+    {
+      "name": "Religious Sites",
+      "items": [
+        {
+          "id": 3,
+          "name": "Kek Lok Si Temple",
+          "description": "The largest Buddhist temple in Malaysia, featuring stunning architecture and a towering pagoda.",
+          "location": "Air Itam",
+          "entryFee": "Free (Pagoda: RM 2)",
+          "openingHours": "7:00 AM - 5:30 PM",
+          "rating": 4.5,
+          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Kek+Lok+Si",
+          "tags": ["Temple", "Buddhism", "Architecture"]
+        },
+        {
+          "id": 4,
+          "name": "Kapitan Keling Mosque",
+          "description": "Historic mosque built in the 19th century, featuring Indo-Moorish architecture.",
+          "location": "Jalan Kapitan Keling, Georgetown",
+          "entryFee": "Free",
+          "openingHours": "11:00 AM - 6:00 PM",
+          "rating": 4.4,
+          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Kapitan+Keling",
+          "tags": ["Mosque", "Islam", "Architecture"]
+        }
+      ]
+    },
+    {
+      "name": "Nature & Parks",
+      "items": [
+        {
+          "id": 5,
+          "name": "Penang Hill",
+          "description": "Historic hill station offering panoramic views of the island and unique flora and fauna.",
+          "location": "Air Itam",
+          "entryFee": "RM 12 (Adult), RM 6 (Child)",
+          "openingHours": "6:30 AM - 11:00 PM",
+          "rating": 4.3,
+          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Penang+Hill",
+          "tags": ["Nature", "Views", "Family", "Cable Car"]
+        },
+        {
+          "id": 6,
+          "name": "Penang Botanic Gardens",
+          "description": "Beautiful gardens featuring tropical plants, walking trails, and local wildlife.",
+          "location": "Jalan Kebun Bunga",
+          "entryFee": "Free",
+          "openingHours": "5:00 AM - 8:00 PM",
+          "rating": 4.2,
+          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Botanic+Gardens",
+          "tags": ["Nature", "Walking", "Family"]
+        }
+      ]
+    },
+    {
+      "name": "Beaches",
+      "items": [
+        {
+          "id": 7,
+          "name": "Batu Ferringhi",
+          "description": "Popular beach destination with water sports, night markets, and beachfront resorts.",
+          "location": "Batu Ferringhi",
+          "entryFee": "Free",
+          "openingHours": "24/7 (Night Market: 6:00 PM - 11:00 PM)",
+          "rating": 4.1,
+          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Batu+Ferringhi",
+          "tags": ["Beach", "Shopping", "Water Sports"]
+        },
+        {
+          "id": 8,
+          "name": "Monkey Beach",
+          "description": "Secluded beach accessible by hiking or boat, known for its pristine waters and wildlife.",
+          "location": "Penang National Park",
+          "entryFee": "Free",
+          "openingHours": "24/7",
+          "rating": 4.0,
+          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Monkey+Beach",
+          "tags": ["Beach", "Nature", "Hiking"]
+        }
+      ]
+    }
+  ]
+}

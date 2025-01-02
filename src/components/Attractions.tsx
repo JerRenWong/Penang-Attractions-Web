@@ -1,53 +1,83 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Card from './Card';
+import attractionsData from '../data/attractions.json';
 import '../styles/Attractions.css';
 
-const attractions = [
-  {
-    id: 1,
-    name: 'Georgetown Heritage',
-    description: 'UNESCO World Heritage Site featuring unique architecture and culture',
-    image: '/images/georgetown.jpg',
-  },
-  {
-    id: 2,
-    name: 'Kek Lok Si Temple',
-    description: 'The largest Buddhist temple in Malaysia',
-    image: '/images/kek-lok-si.jpg',
-  },
-  {
-    id: 3,
-    name: 'Penang Hill',
-    description: 'Historic hill station with panoramic views',
-    image: '/images/penang-hill.jpg',
-  },
-  {
-    id: 4,
-    name: 'Batu Ferringhi',
-    description: 'Famous beach destination with night markets',
-    image: '/images/batu-ferringhi.jpg',
-  },
-  {
-    id: 5,
-    name: 'Penang Street Art',
-    description: 'Famous murals and installations around Georgetown',
-    image: '/images/street-art.jpg',
-  },
-];
+interface AttractionItem {
+  id: number;
+  name: string;
+  description: string;
+  location: string;
+  entryFee: string;
+  rating: number;
+  image: string;
+  openingHours: string;
+  tags: string[];
+}
+
+interface Category {
+  name: string;
+  items: AttractionItem[];
+}
 
 const Attractions = () => {
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+
+  useEffect(() => {
+    setCategories(attractionsData.categories);
+  }, []);
+
+  const allItems = categories.flatMap(category => category.items);
+  const displayItems = selectedCategory === 'all'
+    ? allItems
+    : categories.find(c => c.name === selectedCategory)?.items || [];
+
   return (
     <div className="attractions">
-      <h1>Tourist Attractions in Penang</h1>
-      <div className="attractions-grid">
-        {attractions.map((attraction) => (
-          <div key={attraction.id} className="attraction-card">
-            <img src={attraction.image} alt={attraction.name} />
-            <div className="attraction-content">
-              <h3>{attraction.name}</h3>
-              <p>{attraction.description}</p>
-            </div>
-          </div>
-        ))}
+      <section className="attractions-hero">
+        <div className="attractions-hero-content">
+          <h1>Discover Penang</h1>
+          <p>Explore the island's most iconic attractions and hidden gems</p>
+        </div>
+      </section>
+
+      <div className="attractions-content">
+        <div className="category-filter">
+          <button
+            className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
+            onClick={() => setSelectedCategory('all')}
+          >
+            All
+          </button>
+          {categories.map(category => (
+            <button
+              key={category.name}
+              className={`filter-btn ${selectedCategory === category.name ? 'active' : ''}`}
+              onClick={() => setSelectedCategory(category.name)}
+            >
+              {category.name}
+            </button>
+          ))}
+        </div>
+
+        <div className="attractions-grid">
+          {displayItems.map((item) => (
+            <Card
+              key={item.id}
+              image={item.image}
+              title={item.name}
+              description={item.description}
+              tags={item.tags}
+              rating={item.rating}
+              details={{
+                Location: item.location,
+                'Entry Fee': item.entryFee,
+                'Opening Hours': item.openingHours
+              }}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

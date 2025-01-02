@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "John Doe",
+      "title": "Amazing Street Food Tour",
+      "content": "Had an incredible time exploring the street food scene in Georgetown. The Char Kway Teow at Siam Road was outstanding!",
+      "date": "2025-01-01",
+      "likes": 15,
+      "tags": ["Food", "Georgetown", "Street Food"]
+    },
+    {
+      "id": 2,
+      "author": "Jane Smith",
+      "title": "Hidden Gems in Penang",
+      "content": "Found some amazing hidden street art pieces off the beaten path. Will definitely come back to explore more!",
+      "date": "2025-01-02",
+      "likes": 12,
+      "tags": ["Art", "Culture", "Exploration"]
+    }
+  ]
+}

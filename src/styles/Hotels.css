@@ -1,9 +1,9 @@
-.hotels-page {
+.hotels {
   min-height: calc(100vh - 80px);
 }
 
 .hotels-hero {
-  background-color: #2196f3;
+  background-color: #4caf50;
   color: white;
   padding: 4rem 2rem;
   text-align: center;
@@ -19,80 +19,85 @@
   opacity: 0.9;
 }
 
-.hotels-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 4rem 2rem;
+.hotels-content {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 4rem 2rem;
 }
 
-.hotel-card {
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.hotel-card:hover {
-  transform: translateY(-5px);
-}
-
-.hotel-content {
-  padding: 1.5rem;
-}
-
-.hotel-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.description {
-  color: #666;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-}
-
-.hotel-details {
-  border-top: 1px solid #eee;
-  padding-top: 1rem;
-}
-
-.hotel-details p {
-  margin: 0.5rem 0;
-  color: #444;
-}
-
-.amenities {
-  margin-top: 1rem;
-}
-
-.amenities ul {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0 0 0;
+.category-filter {
   display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
   flex-wrap: wrap;
-  gap: 0.5rem;
 }
 
-.amenities li {
+.filter-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-btn:hover {
   background: #f5f5f5;
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  font-size: 0.9rem;
-  color: #555;
+}
+
+.filter-btn.active {
+  background: #4caf50;
+  color: white;
+}
+
+.hotels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
 }
 
 @media screen and (max-width: 768px) {
+  .hotels-hero {
+    padding: 3rem 1.5rem;
+  }
+
   .hotels-hero h1 {
     font-size: 2.5rem;
   }
-  
-  .hotels-grid {
+
+  .hotels-content {
     padding: 2rem 1rem;
+  }
+
+  .category-filter {
+    margin-bottom: 2rem;
+  }
+
+  .filter-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hotels-hero h1 {
+    font-size: 2rem;
+  }
+
+  .hotels-hero p {
+    font-size: 1rem;
+  }
+
+  .category-filter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .filter-btn {
+    width: 100%;
   }
 }

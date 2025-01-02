@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "name": "Luxury",
+      "items": [
+        {
+          "id": 1,
+          "name": "Eastern & Oriental Hotel",
+          "description": "Historic luxury hotel with colonial charm, offering sea views and world-class service.",
+          "location": "10, Lebuh Farquhar, Georgetown",
+          "priceRange": "RM 800+ per night",
+          "rating": 4.8,
+          "image": "https://placehold.co/600x400/4caf50/ffffff?text=Eastern+%26+Oriental",
+          "amenities": ["Sea View", "Pool", "Spa", "Fine Dining", "Heritage"],
+          "contact": "+604-222-2000"
+        },
+        {
+          "id": 2,
+          "name": "Shangri-La Rasa Sayang",
+          "description": "Luxurious beachfront resort set amidst tropical gardens with world-class amenities.",
+          "location": "Batu Ferringhi Beach",
+          "priceRange": "RM 700+ per night",
+          "rating": 4.7,
+          "image": "https://placehold.co/600x400/4caf50/ffffff?text=Rasa+Sayang",
+          "amenities": ["Beach Access", "Pool", "Spa", "Multiple Restaurants", "Golf"],
+          "contact": "+604-888-8888"
+        }
+      ]
+    },
+    {
+      "name": "Boutique",
+      "items": [
+        {
+          "id": 3,
+          "name": "Seven Terraces",
+          "description": "Intimate heritage hotel in restored Anglo-Chinese terraces with antique furnishings.",
+          "location": "Stewart Lane, Georgetown",
+          "priceRange": "RM 500-700 per night",
+          "rating": 4.6,
+          "image": "https://placehold.co/600x400/4caf50/ffffff?text=Seven+Terraces",
+          "amenities": ["Heritage", "Fine Dining", "Cultural Experience", "Central Location"],
+          "contact": "+604-264-2333"
+        },
+        {
+          "id": 4,
+          "name": "23 Love Lane",
+          "description": "Charming boutique hotel in a restored heritage building with peaceful gardens.",
+          "location": "Love Lane, Georgetown",
+          "priceRange": "RM 400-600 per night",
+          "rating": 4.5,
+          "image": "https://placehold.co/600x400/4caf50/ffffff?text=23+Love+Lane",
+          "amenities": ["Heritage", "Garden", "Breakfast", "Central Location"],
+          "contact": "+604-262-1323"
+        }
+      ]
+    },
+    {
+      "name": "Mid-Range",
+      "items": [
+        {
+          "id": 5,
+          "name": "Hotel Jen Penang",
+          "description": "Modern city hotel with great connectivity and comfortable amenities.",
+          "location": "Magazine Road, Georgetown",
+          "priceRange": "RM 250-400 per night",
+          "rating": 4.3,
+          "image": "https://placehold.co/600x400/4caf50/ffffff?text=Hotel+Jen",
+          "amenities": ["Pool", "Gym", "Restaurant", "Business Center", "City View"],
+          "contact": "+604-262-2622"
+        },
+        {
+          "id": 6,
+          "name": "G Hotel Kelawai",
+          "description": "Contemporary hotel with stylish design and modern facilities.",
+          "location": "Kelawai Road, Georgetown",
+          "priceRange": "RM 300-450 per night",
+          "rating": 4.4,
+          "image": "https://placehold.co/600x400/4caf50/ffffff?text=G+Hotel+Kelawai",
+          "amenities": ["Rooftop Bar", "Pool", "Gym", "Restaurant", "Modern Design"],
+          "contact": "+604-219-0000"
+        }
+      ]
+    },
+    {
+      "name": "Budget",
+      "items": [
+        {
+          "id": 7,
+          "name": "Armenian Street Heritage Hotel",
+          "description": "Comfortable budget hotel in a heritage building with modern amenities.",
+          "location": "Armenian Street, Georgetown",
+          "priceRange": "RM 150-250 per night",
+          "rating": 4.0,
+          "image": "https://placehold.co/600x400/4caf50/ffffff?text=Armenian+Street",
+          "amenities": ["Heritage", "WiFi", "Air Conditioning", "Central Location"],
+          "contact": "+604-261-0000"
+        },
+        {
+          "id": 8,
+          "name": "B Street Hotel",
+          "description": "Modern budget hotel with clean rooms and friendly service.",
+          "location": "Beach Street, Georgetown",
+          "priceRange": "RM 100-200 per night",
+          "rating": 3.9,
+          "image": "https://placehold.co/600x400/4caf50/ffffff?text=B+Street+Hotel",
+          "amenities": ["WiFi", "Air Conditioning", "24/7 Reception", "Budget Friendly"],
+          "contact": "+604-261-1111"
+        }
+      ]
+    }
+  ]
+}

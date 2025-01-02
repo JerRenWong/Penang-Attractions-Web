@@ -1,58 +1,81 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Card from './Card';
+import foodData from '../data/food.json';
 import '../styles/Food.css';
 
+interface FoodItem {
+  id: number;
+  name: string;
+  description: string;
+  location: string;
+  price: string;
+  rating: number;
+  image: string;
+  tags: string[];
+}
+
+interface Category {
+  name: string;
+  items: FoodItem[];
+}
+
 const Food = () => {
-  const foods = [
-    {
-      id: 1,
-      name: 'Char Kway Teow',
-      description: 'Famous stir-fried rice noodles with prawns, cockles, and bean sprouts',
-      location: 'Siam Road, Georgetown',
-      price: 'RM 6-8'
-    },
-    {
-      id: 2,
-      name: 'Assam Laksa',
-      description: 'Spicy-sour fish soup with thick rice noodles and fresh herbs',
-      location: 'Air Itam Market',
-      price: 'RM 5-7'
-    },
-    {
-      id: 3,
-      name: 'Nasi Kandar',
-      description: 'Rice served with various curry dishes and side dishes',
-      location: 'Line Clear, Georgetown',
-      price: 'RM 8-15'
-    },
-    {
-      id: 4,
-      name: 'Cendol',
-      description: 'Traditional dessert with green rice flour jelly and coconut milk',
-      location: 'Penang Road Famous Teochew Chendul',
-      price: 'RM 4-6'
-    }
-  ];
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+
+  useEffect(() => {
+    setCategories(foodData.categories);
+  }, []);
+
+  const allItems = categories.flatMap(category => category.items);
+  const displayItems = selectedCategory === 'all' 
+    ? allItems 
+    : categories.find(c => c.name === selectedCategory)?.items || [];
 
   return (
-    <div className="food-page">
-      <div className="food-hero">
-        <h1>Penang Food Paradise</h1>
-        <p>Discover the world-renowned street food culture</p>
-      </div>
-      
-      <div className="food-grid">
-        {foods.map(food => (
-          <div key={food.id} className="food-card">
-            <div className="food-content">
-              <h3>{food.name}</h3>
-              <p className="description">{food.description}</p>
-              <div className="food-details">
-                <p><strong>Best at:</strong> {food.location}</p>
-                <p><strong>Price:</strong> {food.price}</p>
-              </div>
-            </div>
-          </div>
-        ))}
+    <div className="food">
+      <section className="food-hero">
+        <div className="food-hero-content">
+          <h1>Penang Food Guide</h1>
+          <p>Discover the best local delicacies and street food</p>
+        </div>
+      </section>
+
+      <div className="food-content">
+        <div className="category-filter">
+          <button 
+            className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
+            onClick={() => setSelectedCategory('all')}
+          >
+            All
+          </button>
+          {categories.map(category => (
+            <button
+              key={category.name}
+              className={`filter-btn ${selectedCategory === category.name ? 'active' : ''}`}
+              onClick={() => setSelectedCategory(category.name)}
+            >
+              {category.name}
+            </button>
+          ))}
+        </div>
+
+        <div className="food-grid">
+          {displayItems.map((item) => (
+            <Card
+              key={item.id}
+              image={item.image}
+              title={item.name}
+              description={item.description}
+              tags={item.tags}
+              rating={item.rating}
+              details={{
+                Location: item.location,
+                Price: item.price
+              }}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
