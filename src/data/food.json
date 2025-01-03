@@ -10,7 +10,10 @@
           "location": "Siam Road Char Koay Teow",
           "price": "RM 7-9",
           "rating": 4.8,
-          "image": "https://placehold.co/600x400/f44336/ffffff?text=Char+Kway+Teow",
+          "image": [
+            "https://placehold.co/600x400/f44336/ffffff?text=Char+Kway+Teow+1",
+            "https://placehold.co/600x400/f44336/ffffff?text=Char+Kway+Teow+2"
+          ],
           "tags": ["Noodles", "Seafood", "Spicy", "Popular"]
         },
         {
@@ -20,7 +23,10 @@
           "location": "Air Itam Laksa",
           "price": "RM 6-8",
           "rating": 4.7,
-          "image": "https://placehold.co/600x400/f44336/ffffff?text=Penang+Laksa",
+          "image": [
+            "https://placehold.co/600x400/f44336/ffffff?text=Penang+Laksa+1",
+            "https://placehold.co/600x400/f44336/ffffff?text=Penang+Laksa+2"
+          ],
           "tags": ["Noodles", "Soup", "Spicy", "Seafood"]
         }
       ]
@@ -35,7 +41,10 @@
           "location": "Line Clear Nasi Kandar",
           "price": "RM 10-15",
           "rating": 4.6,
-          "image": "https://placehold.co/600x400/f44336/ffffff?text=Nasi+Kandar",
+          "image": [
+            "https://placehold.co/600x400/f44336/ffffff?text=Nasi+Kandar+1",
+            "https://placehold.co/600x400/f44336/ffffff?text=Nasi+Kandar+2"
+          ],
           "tags": ["Rice", "Curry", "Indian", "Spicy"]
         },
         {
@@ -45,7 +54,10 @@
           "location": "Presgrave Street",
           "price": "RM 8-12",
           "rating": 4.5,
-          "image": "https://placehold.co/600x400/f44336/ffffff?text=Hokkien+Mee",
+          "image": [
+            "https://placehold.co/600x400/f44336/ffffff?text=Hokkien+Mee+1",
+            "https://placehold.co/600x400/f44336/ffffff?text=Hokkien+Mee+2"
+          ],
           "tags": ["Noodles", "Soup", "Seafood", "Chinese"]
         }
       ]
@@ -60,7 +72,10 @@
           "location": "Penang Road Famous Teochew Chendul",
           "price": "RM 4-6",
           "rating": 4.4,
-          "image": "https://placehold.co/600x400/f44336/ffffff?text=Cendol",
+          "image": [
+            "https://placehold.co/600x400/f44336/ffffff?text=Cendol+1",
+            "https://placehold.co/600x400/f44336/ffffff?text=Cendol+2"
+          ],
           "tags": ["Dessert", "Sweet", "Cold", "Traditional"]
         },
         {
@@ -70,7 +85,10 @@
           "location": "New World Park Food Court",
           "price": "RM 5-7",
           "rating": 4.3,
-          "image": "https://placehold.co/600x400/f44336/ffffff?text=Ice+Kacang",
+          "image": [
+            "https://placehold.co/600x400/f44336/ffffff?text=Ice+Kacang+1",
+            "https://placehold.co/600x400/f44336/ffffff?text=Ice+Kacang+2"
+          ],
           "tags": ["Dessert", "Sweet", "Cold", "Popular"]
         }
       ]
@@ -85,7 +103,10 @@
           "location": "Maxim Dim Sum",
           "price": "RM 15-25 per person",
           "rating": 4.5,
-          "image": "https://placehold.co/600x400/f44336/ffffff?text=Dim+Sum",
+          "image": [
+            "https://placehold.co/600x400/f44336/ffffff?text=Dim+Sum+1",
+            "https://placehold.co/600x400/f44336/ffffff?text=Dim+Sum+2"
+          ],
           "tags": ["Chinese", "Breakfast", "Dumplings", "Tea"]
         },
         {
@@ -95,7 +116,10 @@
           "location": "Ming Xiang Tai",
           "price": "RM 5-7",
           "rating": 4.4,
-          "image": "https://placehold.co/600x400/f44336/ffffff?text=Siew+Mai",
+          "image": [
+            "https://placehold.co/600x400/f44336/ffffff?text=Siew+Mai+1",
+            "https://placehold.co/600x400/f44336/ffffff?text=Siew+Mai+2"
+          ],
           "tags": ["Chinese", "Dumplings", "Pork", "Seafood"]
         }
       ]

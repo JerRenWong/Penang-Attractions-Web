@@ -9,10 +9,10 @@ interface HotelItem {
   description: string;
   location: string;
   priceRange: string;
-  rating: number;
-  image: string;
-  amenities: string[];
   contact: string;
+  rating: number;
+  image: string | string[];
+  amenities: string[];
 }
 
 interface Category {
@@ -20,12 +20,16 @@ interface Category {
   items: HotelItem[];
 }
 
+interface HotelsData {
+  categories: Category[];
+}
+
 const Hotels = () => {
   const [categories, setCategories] = useState<Category[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   useEffect(() => {
-    setCategories(hotelsData.categories);
+    setCategories((hotelsData as HotelsData).categories);
   }, []);
 
   const allItems = categories.flatMap(category => category.items);
@@ -38,7 +42,7 @@ const Hotels = () => {
       <section className="hotels-hero">
         <div className="hotels-hero-content">
           <h1>Stay in Penang</h1>
-          <p>Find the perfect accommodation for your visit</p>
+          <p>Find your perfect accommodation from luxury resorts to boutique hotels</p>
         </div>
       </section>
 
@@ -62,7 +66,7 @@ const Hotels = () => {
         </div>
 
         <div className="hotels-grid">
-          {displayItems.map((item) => (
+          {displayItems.map(item => (
             <Card
               key={item.id}
               id={item.id}

@@ -5,6 +5,7 @@ html {
 .home {
   min-height: calc(100vh - 80px);
   font-family: 'Poppins', sans-serif;
+  margin-top: -1px; /* Fix the gap */
 }
 
 .hero {

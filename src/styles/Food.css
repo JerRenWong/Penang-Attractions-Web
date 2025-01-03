@@ -1,5 +1,7 @@
 .food {
   min-height: calc(100vh - 80px);
+  padding: 2rem;
+  margin-top: -1px; /* Fix the gap */
 }
 
 .food-hero {

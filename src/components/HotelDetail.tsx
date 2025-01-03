@@ -12,7 +12,7 @@ interface HotelItem {
   priceRange: string;
   contact: string;
   rating: number;
-  image: string | string[];
+  image: string[];
   amenities: string[];
 }
 

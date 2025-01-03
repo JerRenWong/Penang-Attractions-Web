@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import '../styles/Card.css';
 
 interface CardProps {
@@ -22,8 +22,16 @@ const Card: React.FC<CardProps> = ({
   details
 }) => {
   const navigate = useNavigate();
+  const location = useLocation();
   const images = Array.isArray(image) ? image : [image];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const getDetailPath = () => {
+    const path = location.pathname;
+    if (path.includes('food')) return `/food/${id}`;
+    if (path.includes('hotels')) return `/hotel/${id}`;
+    return `/attraction/${id}`;
+  };
 
   const nextImage = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -41,7 +49,7 @@ const Card: React.FC<CardProps> = ({
   };
 
   return (
-    <div className="card" onClick={() => navigate(`/attraction/${id}`)}>
+    <div className="card" onClick={() => navigate(getDetailPath())}>
       <div className="card-image">
         <img src={images[currentImageIndex]} alt={title} />
         {images.length > 1 && (

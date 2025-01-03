@@ -11,7 +11,7 @@ interface FoodItem {
   location: string;
   price: string;
   rating: number;
-  image: string | string[];
+  image: string[];
   tags: string[];
 }
 
