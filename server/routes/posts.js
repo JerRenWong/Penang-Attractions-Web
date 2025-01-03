@@ -7,9 +7,12 @@ const cloudinary = require('../config/cloudinary');
 // Get all posts
 router.get('/', async (req, res) => {
   try {
+    console.log('Fetching posts...');
     const posts = await Post.find().sort({ date: -1 });
+    console.log(`Found ${posts.length} posts`);
     res.json(posts);
   } catch (err) {
+    console.error('Error fetching posts:', err);
     res.status(500).json({ message: err.message });
   }
 });
