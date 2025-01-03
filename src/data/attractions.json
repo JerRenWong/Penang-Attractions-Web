@@ -11,7 +11,10 @@
           "entryFee": "Free",
           "openingHours": "24/7",
           "rating": 4.8,
-          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Georgetown+Heritage",
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Georgetown+Heritage+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Georgetown+Heritage+2"
+          ],
           "tags": ["UNESCO", "Culture", "Architecture", "History"]
         },
         {
@@ -22,8 +25,25 @@
           "entryFee": "RM 25",
           "openingHours": "11:00 AM - 3:00 PM",
           "rating": 4.6,
-          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Blue+Mansion",
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Blue+Mansion+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Blue+Mansion+2"
+          ],
           "tags": ["Architecture", "History", "Guided Tours"]
+        },
+        {
+          "id": 22,
+          "name": "Ruby no Heya",
+          "description": "Myvi outside.",
+          "location": "Somewhere",
+          "entryFee": "RM 300",
+          "openingHours": "11:00 AM - 11:00 PM",
+          "rating": 3.9,
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Ruby+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Ruby+2"
+          ],
+          "tags": ["Maid"]
         }
       ]
     },
@@ -38,7 +58,10 @@
           "entryFee": "Free (Pagoda: RM 2)",
           "openingHours": "7:00 AM - 5:30 PM",
           "rating": 4.5,
-          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Kek+Lok+Si",
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Kek+Lok+Si+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Kek+Lok+Si+2"
+          ],
           "tags": ["Temple", "Buddhism", "Architecture"]
         },
         {
@@ -49,7 +72,10 @@
           "entryFee": "Free",
           "openingHours": "11:00 AM - 6:00 PM",
           "rating": 4.4,
-          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Kapitan+Keling",
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Kapitan+Keling+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Kapitan+Keling+2"
+          ],
           "tags": ["Mosque", "Islam", "Architecture"]
         }
       ]
@@ -65,7 +91,10 @@
           "entryFee": "RM 12 (Adult), RM 6 (Child)",
           "openingHours": "6:30 AM - 11:00 PM",
           "rating": 4.3,
-          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Penang+Hill",
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Penang+Hill+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Penang+Hill+2"
+          ],
           "tags": ["Nature", "Views", "Family", "Cable Car"]
         },
         {
@@ -76,7 +105,10 @@
           "entryFee": "Free",
           "openingHours": "5:00 AM - 8:00 PM",
           "rating": 4.2,
-          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Botanic+Gardens",
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Botanic+Gardens+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Botanic+Gardens+2"
+          ],
           "tags": ["Nature", "Walking", "Family"]
         }
       ]
@@ -92,7 +124,10 @@
           "entryFee": "Free",
           "openingHours": "24/7 (Night Market: 6:00 PM - 11:00 PM)",
           "rating": 4.1,
-          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Batu+Ferringhi",
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Batu+Ferringhi+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Batu+Ferringhi+2"
+          ],
           "tags": ["Beach", "Shopping", "Water Sports"]
         },
         {
@@ -103,7 +138,10 @@
           "entryFee": "Free",
           "openingHours": "24/7",
           "rating": 4.0,
-          "image": "https://placehold.co/600x400/2196f3/ffffff?text=Monkey+Beach",
+          "image": [
+            "https://placehold.co/600x400/2196f3/ffffff?text=Monkey+Beach+1",
+            "https://placehold.co/600x400/2196f3/ffffff?text=Monkey+Beach+2"
+          ],
           "tags": ["Beach", "Nature", "Hiking"]
         }
       ]

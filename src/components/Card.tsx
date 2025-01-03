@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/Card.css';
 
 interface CardProps {
-  image: string;
+  id: number;
+  image: string | string[];
   title: string;
   description: string;
   tags?: string[];
@@ -11,6 +13,7 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({
+  id,
   image,
   title,
   description,
@@ -18,10 +21,44 @@ const Card: React.FC<CardProps> = ({
   rating,
   details
 }) => {
+  const navigate = useNavigate();
+  const images = Array.isArray(image) ? image : [image];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const nextImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev + 1) % images.length);
+  };
+
+  const previousImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  const handleDotClick = (e: React.MouseEvent, index: number) => {
+    e.stopPropagation();
+    setCurrentImageIndex(index);
+  };
+
   return (
-    <div className="card">
+    <div className="card" onClick={() => navigate(`/attraction/${id}`)}>
       <div className="card-image">
-        <img src={image} alt={title} />
+        <img src={images[currentImageIndex]} alt={title} />
+        {images.length > 1 && (
+          <>
+            <button className="image-nav prev" onClick={previousImage}>❮</button>
+            <button className="image-nav next" onClick={nextImage}>❯</button>
+            <div className="image-dots">
+              {images.map((_, index) => (
+                <span
+                  key={index}
+                  className={`dot ${index === currentImageIndex ? 'active' : ''}`}
+                  onClick={(e) => handleDotClick(e, index)}
+                />
+              ))}
+            </div>
+          </>
+        )}
         {rating && (
           <div className="card-rating">
             ⭐ {rating.toFixed(1)}

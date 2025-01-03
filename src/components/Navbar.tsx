@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          Penang Tourism
+          🌴 Penang Tourism
         </Link>
 
         <div className={`menu-icon ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>

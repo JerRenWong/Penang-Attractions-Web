@@ -1,31 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
 import attractionsData from '../data/attractions.json';
+import { Category, AttractionsData } from '../types/attractions';
 import '../styles/Attractions.css';
-
-interface AttractionItem {
-  id: number;
-  name: string;
-  description: string;
-  location: string;
-  entryFee: string;
-  rating: number;
-  image: string;
-  openingHours: string;
-  tags: string[];
-}
-
-interface Category {
-  name: string;
-  items: AttractionItem[];
-}
 
 const Attractions = () => {
   const [categories, setCategories] = useState<Category[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   useEffect(() => {
-    setCategories(attractionsData.categories);
+    setCategories((attractionsData as AttractionsData).categories);
   }, []);
 
   const allItems = categories.flatMap(category => category.items);
@@ -62,19 +46,20 @@ const Attractions = () => {
         </div>
 
         <div className="attractions-grid">
-          {displayItems.map((item) => (
+          {displayItems.map(item => (
             <Card
               key={item.id}
+              id={item.id}
               image={item.image}
               title={item.name}
               description={item.description}
-              tags={item.tags}
-              rating={item.rating}
               details={{
                 Location: item.location,
                 'Entry Fee': item.entryFee,
                 'Opening Hours': item.openingHours
               }}
+              rating={item.rating}
+              tags={item.tags}
             />
           ))}
         </div>

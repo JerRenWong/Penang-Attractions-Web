@@ -65,6 +65,7 @@ const Hotels = () => {
           {displayItems.map((item) => (
             <Card
               key={item.id}
+              id={item.id}
               image={item.image}
               title={item.name}
               description={item.description}
