@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Penang-Attractions-Web/static/css/main.2bff75de.css",
+    "main.js": "/Penang-Attractions-Web/static/js/main.4edb1271.js",
+    "index.html": "/Penang-Attractions-Web/index.html",
+    "static/media/coconut_tree_cursor.svg": "/Penang-Attractions-Web/static/media/coconut_tree_cursor.85aedf0e568fd128b5f5.svg",
+    "main.2bff75de.css.map": "/Penang-Attractions-Web/static/css/main.2bff75de.css.map",
+    "main.4edb1271.js.map": "/Penang-Attractions-Web/static/js/main.4edb1271.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bff75de.css",
+    "static/js/main.4edb1271.js"
+  ]
+}
