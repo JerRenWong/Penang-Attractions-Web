@@ -1,6 +1,6 @@
 .navbar {
   background-color: #D2B48C;  /* Tan color that complements dark chocolate */
-  padding: 1.5rem 0;  /* Remove horizontal padding from navbar */
+  padding: 0.8rem 0;  /* Reduced from 1.5rem */
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -8,7 +8,7 @@
 }
 
 .navbar-container {
-  max-width: 1400px;  /* Increased from 1200px */
+  max-width: 1200px;  /* Reduced from 1400px */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -21,17 +21,17 @@
   align-items: center;
   text-decoration: none;
   color: #3C1414;  /* Dark chocolate color */
-  font-size: 2.5rem;  /* Increased from 1.8rem */
-  font-weight: 600;
+  font-size: 1.8rem;  /* Reduced from 2.5rem */
+  font-weight: bold;
   font-family: var(--font-heading);
   letter-spacing: 1px;
   margin-left: -1rem;  /* Move logo more to the left */
 }
 
 .navbar-logo-icon {
-  height: 45px;  /* Increased from 35px */
+  height: 35px;  /* Reduced from 45px */
   width: auto;
-  margin-right: 15px;  /* Increased from 12px */
+  margin-right: 12px;  /* Reduced from 15px */
 }
 
 .navbar-logo span {
@@ -49,17 +49,20 @@
 }
 
 .nav-item {
-  margin-left: 3rem;  /* Increased spacing between nav items */
+  margin-left: 2rem;  /* Reduced from 3rem */
+  position: relative;
 }
 
 .nav-link {
   color: #3C1414;  /* Dark chocolate color */
   text-decoration: none;
-  font-size: 1.8rem;  /* Increased from 1.2rem */
+  font-size: 1.4rem;  /* Reduced from 1.8rem */
   font-weight: 500;
   letter-spacing: 0.5px;
   transition: all 0.3s ease;
   font-family: var(--font-heading);
+  padding: 0.5rem 0;  /* Reduced from 0.8rem */
+  display: block;
 }
 
 .nav-link:hover {
@@ -76,8 +79,9 @@
   .menu-icon {
     display: block;
     position: relative;
-    width: 30px;
-    height: 22px;
+    width: 30px;  /* Reduced from 35px */
+    height: 20px;  /* Reduced from 25px */
+    cursor: pointer;
   }
 
   .menu-icon span,
@@ -86,7 +90,7 @@
     position: absolute;
     content: '';
     width: 30px;
-    height: 3px;
+    height: 2px;  /* Reduced from 3px */
     background-color: #3C1414;  /* Dark chocolate color */
     transition: all 0.3s ease;
   }
@@ -97,11 +101,11 @@
   }
 
   .menu-icon span::before {
-    top: -8px;
+    top: -6px;  /* Reduced from -8px */
   }
 
   .menu-icon span::after {
-    bottom: -8px;
+    bottom: -6px;  /* Reduced from -8px */
   }
 
   .menu-icon.active span {
@@ -138,7 +142,7 @@
   }
 
   .nav-link {
-    font-size: 2rem;  /* Increased from 1.3rem */
+    font-size: 1.6rem;  /* Reduced from 2rem */
   }
 }
 
@@ -194,10 +198,10 @@
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.8rem 1.5rem;
+  padding: 0.6rem 1.5rem;  /* Reduced from 0.8rem */
   color: #ffffff;  /* White text */
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.3rem;  /* Reduced from 1.4rem */
   font-family: var(--font-heading);
   transition: all 0.3s ease;
   background: none;
@@ -228,8 +232,8 @@
   }
 
   .dropdown-item {
-    padding: 1rem 2rem;
-    font-size: 1.6rem;
+    padding: 0.8rem 2rem;  /* Reduced from 1rem */
+    font-size: 1.4rem;  /* Reduced from 1.6rem */
     color: #ffffff;  /* White text for mobile too */
   }
 
