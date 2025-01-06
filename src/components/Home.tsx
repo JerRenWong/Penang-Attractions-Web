@@ -1,19 +1,39 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
+import slideshowData from '../data/slideshow.json';
 
 const Home = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slideshowData.slides.length);
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, []);
+
   const scrollToHighlights = (e: React.MouseEvent) => {
     e.preventDefault();
     const highlightsSection = document.querySelector('.highlights');
-    if (highlightsSection) {
-      highlightsSection.scrollIntoView({ behavior: 'smooth' });
-    }
+    highlightsSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
     <div className="home">
       <section className="hero">
+        <div className="hero-slideshow">
+          {slideshowData.slides.map((slide, index) => (
+            <div
+              key={index}
+              className={`slide ${index === currentSlide ? 'active' : ''}`}
+              style={{ backgroundImage: `url(${slide.url})` }}
+              aria-label={slide.caption}
+            />
+          ))}
+        </div>
+        <div className="hero-overlay"></div>
         <div className="hero-content">
           <h1>Discover Penang</h1>
           <p>A Fusion of Culture, Heritage and Modernity</p>
