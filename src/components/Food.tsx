@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Card from './Card';
 import foodData from '../data/food.json';
 import '../styles/Food.css';
@@ -23,13 +24,25 @@ interface FoodData {
   categories: Category[];
 }
 
+interface LocationState {
+  category?: string;
+}
+
 const Food = () => {
+  const location = useLocation();
+  const state = location.state as LocationState;
   const [categories, setCategories] = useState<Category[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedCategory, setSelectedCategory] = useState<string>(state?.category || 'all');
 
   useEffect(() => {
     setCategories((foodData as FoodData).categories);
   }, []);
+
+  useEffect(() => {
+    if (state?.category) {
+      setSelectedCategory(state.category);
+    }
+  }, [state?.category]);
 
   const allItems = categories.flatMap(category => category.items);
   const displayItems = selectedCategory === 'all'

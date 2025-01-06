@@ -41,7 +41,7 @@ const Hotels = () => {
     <div className="hotels">
       <section className="hotels-hero">
         <div className="hotels-hero-content">
-          <h1>Stay in Penang</h1>
+          <h1 className="section-heading">Stay in Penang</h1> {/* Add section-heading class */}
           <p>Find your perfect accommodation from luxury resorts to boutique hotels</p>
         </div>
       </section>

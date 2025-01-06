@@ -25,11 +25,14 @@ const Home = () => {
 
       <section className="highlights" id="highlights">
         <div className="container">
+          {/* Added "Why Penang" heading with animation */}
+          <h2 className="special_heading">Why <span>Penang</span>✨</h2>
+
           <div className="highlights-grid">
             <Link to="/food" className="highlight-card">
               <div className="highlight-image">
                 <img 
-                  src="https://placehold.co/600x400/f44336/ffffff?text=Penang+Food" 
+                  src="https://middleclass.sg/wp-content/uploads/2019/09/penang14.jpg" 
                   alt="Penang Food"
                 />
               </div>
@@ -43,7 +46,7 @@ const Home = () => {
             <Link to="/attractions" className="highlight-card">
               <div className="highlight-image">
                 <img 
-                  src="https://placehold.co/600x400/2196f3/ffffff?text=Penang+Attractions" 
+                  src="https://example.com/attractions.jpg" 
                   alt="Penang Attractions"
                 />
               </div>

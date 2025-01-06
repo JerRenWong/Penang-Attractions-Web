@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  --font-body: 'Montserrat', sans-serif;
+  --font-heading: 'Cormorant Garamond', serif;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-body) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
@@ -15,10 +22,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-heading) !important;
   font-weight: 500;
   line-height: 1.2;
   color: #1a1a1a;
+}
+
+/* Add specific styles for card headings */
+.highlight-card h3 {
+  font-family: var(--font-heading) !important;
 }
 
 .App {
