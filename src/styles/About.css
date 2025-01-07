@@ -3,10 +3,15 @@
 }
 
 .about-hero {
-  background-color: #f44336;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://th.bing.com/th/id/R.9008d05c138cb39c50c10dbee14eb426?rik=YzGeqy18YV4iHA&riu=http%3a%2f%2fpenang.attractionsinmalaysia.com%2fimg%2fphotoState%2fpenang%2fKekLokSiTemple%2f1.jpg&ehk=8tmzXU62GtHI00TZROLzSh3PMvYgUU%2f88BNutWCgRq0%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   padding: 4rem 2rem;
   text-align: center;
+  border-radius: 12px;
+  margin-bottom: 0rem;
 }
 
 .about-hero-content {
@@ -17,6 +22,7 @@
 .about-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: white
 }
 
 .about-hero p {
@@ -32,6 +38,15 @@
 
 .about-section {
   margin-bottom: 4rem;
+}
+
+.about-section::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 10px;
+  background-color: #c50565;
+  margin: 0.5rem auto;
 }
 
 .about-section:last-child {
@@ -57,6 +72,15 @@
 /* Video Section Styles */
 .video-section {
   text-align: center;
+}
+
+.video-section::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 10px;
+  background-color: #c50565;
+  margin: 0.5rem auto;
 }
 
 .video-container {
@@ -90,6 +114,60 @@
   padding: 0 1rem;
 }
 
+.form-container{
+  margin: 4rem 6rem;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.form-container::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 10px;
+  background-color: #c50565;
+  margin: 3rem auto;
+}
+
+.form-container form{
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.form-container input{
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #2a2a2a;
+}
+
+.form-container textarea{
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #2a2a2a;
+}
+
+.form-container button{
+  display: inline;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(135deg, #c50562, #f45acb); 
+  color: white;
+  border: none;
+  border-radius: 25px; 
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
 .contact-info {
   background-color: #f5f5f5;
   padding: 2rem;
@@ -106,15 +184,14 @@
 
 .social-links {
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
+  justify-content: flex-start;
+  gap: 1rem;
   margin-top: 1rem;
 }
 
 .social-links a {
   color: #333;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 4px;
   background-color: #fff;
   transition: all 0.3s ease;

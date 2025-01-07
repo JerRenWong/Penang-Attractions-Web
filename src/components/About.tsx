@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -39,6 +40,17 @@ const About = () => {
           </p>
         </div>
 
+        <div className="form-container">
+          <h2>Send a message to us!</h2>
+          <form>
+            <input placeholder="Name"/>
+            <input placeholder="Email"/>
+            <input placeholder="Subject"/>
+            <textarea placeholder="Message" rows={4}></textarea>
+            <button>Send Message</button>
+          </form>
+        </div>
+
         <div className="about-section">
           <h2>Contact Us</h2>
           <div className="contact-info">
@@ -47,9 +59,9 @@ const About = () => {
             <p><strong>Address:</strong> 12 Beach Street, Georgetown, 10300 Penang, Malaysia</p>
             <p><strong>Social Media:</strong></p>
             <div className="social-links">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook size={24} /></a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={24} /></a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /></a>
             </div>
           </div>
         </div>
