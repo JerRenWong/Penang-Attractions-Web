@@ -49,21 +49,7 @@ const About = () => {
             <textarea placeholder="Message" rows={4}></textarea>
             <button>Send Message</button>
           </form>
-        </div>
-
-        <div className="about-section">
-          <h2>Contact Us</h2>
-          <div className="contact-info">
-            <p><strong>Email:</strong> info@penangtourism.com</p>
-            <p><strong>Phone:</strong> +60 4-123 4567</p>
-            <p><strong>Address:</strong> 12 Beach Street, Georgetown, 10300 Penang, Malaysia</p>
-            <p><strong>Social Media:</strong></p>
-            <div className="social-links">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook size={24} /></a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={24} /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /></a>
-            </div>
-          </div>
+        
         </div>
       </section>
     </div>

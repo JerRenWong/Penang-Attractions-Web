@@ -3,7 +3,7 @@
 }
 
 .about-hero {
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://th.bing.com/th/id/R.9008d05c138cb39c50c10dbee14eb426?rik=YzGeqy18YV4iHA&riu=http%3a%2f%2fpenang.attractionsinmalaysia.com%2fimg%2fphotoState%2fpenang%2fKekLokSiTemple%2f1.jpg&ehk=8tmzXU62GtHI00TZROLzSh3PMvYgUU%2f88BNutWCgRq0%3d&risl=&pid=ImgRaw&r=0");
+  background-image:url("https://th.bing.com/th/id/R.9008d05c138cb39c50c10dbee14eb426?rik=YzGeqy18YV4iHA&riu=http%3a%2f%2fpenang.attractionsinmalaysia.com%2fimg%2fphotoState%2fpenang%2fKekLokSiTemple%2f1.jpg&ehk=8tmzXU62GtHI00TZROLzSh3PMvYgUU%2f88BNutWCgRq0%3d&risl=&pid=ImgRaw&r=0");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -168,42 +168,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-.contact-info {
-  background-color: #f5f5f5;
-  padding: 2rem;
-  border-radius: 8px;
-}
 
-.contact-info p {
-  margin-bottom: 1rem;
-}
-
-.contact-info p:last-child {
-  margin-bottom: 0;
-}
-
-.social-links {
-  display: flex;
-  justify-content: flex-start;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.social-links a {
-  color: #333;
-  padding: 0.3rem 0.6rem;
-  border-radius: 4px;
-  background-color: #fff;
-  transition: all 0.3s ease;
-  border: 1px solid #ddd;
-}
-
-.social-links a:hover {
-  background-color: #f44336;
-  color: white;
-  border-color: #f44336;
-  transform: translateY(-2px);
-}
 
 @media screen and (max-width: 768px) {
   .about-hero {
@@ -233,17 +198,25 @@
   .video-description {
     font-size: 1rem;
   }
-}
 
-@media screen and (max-width: 480px) {
-  .social-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.75rem;
+  .form-container {
+    margin: 2rem 1rem;
   }
 
-  .social-links a {
-    width: 200px;
-    text-align: center;
+  .form-container form {
+    width: 90%;
+  }
+
+  .form-container input,
+  .form-container textarea {
+    font-size: 0.9rem;
+    padding: 0.8rem 0.8rem;
+  }
+
+  .form-container button {
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
   }
 }
+
+
