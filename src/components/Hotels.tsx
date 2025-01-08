@@ -47,6 +47,7 @@ const Hotels = () => {
       </section>
 
       <div className="hotels-content">
+        <h2 className="search-title">Seacrh Hotels</h2>
         <div className="category-filter">
           <button
             className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
@@ -67,6 +68,7 @@ const Hotels = () => {
 
         <div className="hotels-grid">
           {displayItems.map(item => (
+            <div key={item.id} className="hotel-card">
             <Card
               key={item.id}
               id={item.id}
@@ -81,6 +83,7 @@ const Hotels = () => {
                 Contact: item.contact
               }}
             />
+            </div>
           ))}
         </div>
       </div>
