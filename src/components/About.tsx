@@ -20,8 +20,8 @@ const About = () => {
       <section className="about-content">
         <div className="about-section video-section">
           <h2>Meet Our Team</h2>
-          <div 
-            className={`video-container ${isPlaying ? 'playing' : ''}`} 
+          <div
+            className={`video-container ${isPlaying ? 'playing' : ''}`}
             onClick={handleVideoClick}
           >
             {!isPlaying && (
@@ -31,7 +31,7 @@ const About = () => {
               </div>
             )}
             <iframe
-              src={`https://www.youtube.com/embed/QIxXWsahP0g${isPlaying ? '?autoplay=1' : ''}`}
+              src={`https://www.youtube.com/embed/QIxXWsahP0g${isPlaying ? '?autoplay=1&vq=hd1080' : '?vq=hd1080'}`}
               title="About Penang Tourism"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
