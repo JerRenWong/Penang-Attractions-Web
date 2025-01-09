@@ -67,14 +67,15 @@
       "items": [
         {
           "id": 5,
-          "name": "Cendol",
-          "description": "Traditional dessert with green rice flour jelly, coconut milk, and palm sugar syrup.",
-          "location": "Penang Road Famous Teochew Chendul",
-          "price": "RM 4-6",
-          "rating": 4.4,
+          "name": "Penang Road Famous Teochew Chendul",
+          "description": "A refreshing dessert of shaved ice, green rice flour jelly, red beans, and coconut milk, sweetened with palm sugar syrup.",
+          "location": "27 & 29 Lebuh Keng Kwee",
+          "price": "RM 5-8",
+          "rating": 4.1,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Cendol+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Cendol+2"
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3a/0a/ad/penang-road-famous-teochew.jpg?w=1800&h=1000&s=1",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcavinteo.blogspot.com%2F2016%2F08%2Fpenang-road-famous-teochew-chendul.html&psig=AOvVaw3AncVwQ5htgtuLW__KSHuk&ust=1736502296977000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOia2aWt6IoDFQAAAAAdAAAAABAI",
+            "https://i0.wp.com/penang-local.com/directorist/wp-content/uploads/2023/01/Cendol-4.jpg?fit=900%2C600&ssl=1"
           ],
           "tags": ["Dessert", "Sweet", "Cold", "Traditional"]
         },
@@ -94,33 +95,35 @@
       ]
     },
     {
-      "name": "Dim Sum",
+      "name": "Cafe",
       "items": [
         {
           "id": 7,
-          "name": "Dim Sum Feast",
-          "description": "Various steamed and fried dumplings, buns, and other Chinese delicacies.",
-          "location": "Maxim Dim Sum",
-          "price": "RM 15-25 per person",
+          "name": "Wheeler's",
+          "description": "A popular cafe in George Town offering a cozy ambiance, excellent coffee, and a menu featuring delicious Western and local fusion dishes.",
+          "location": "67 Lorong Love",
+          "price": "RM 20-40 per person",
           "rating": 4.5,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Dim+Sum+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Dim+Sum+2"
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/7e/6a/c7/food-feast.jpg?w=1400&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/bd/2e/66/our-signature-dish.jpg?w=1400&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/9c/47/a9/new-wheeler-s.jpg?w=1400&h=-1&s=1"
           ],
-          "tags": ["Chinese", "Breakfast", "Dumplings", "Tea"]
+          "tags": ["Cafe", "Fusion", "Vegetable-friendly"]
         },
         {
           "id": 8,
-          "name": "Siew Mai",
-          "description": "Steamed pork and shrimp dumplings, a dim sum classic.",
-          "location": "Ming Xiang Tai",
-          "price": "RM 5-7",
-          "rating": 4.4,
+          "name": "The FOUNDERS Hutton",
+          "description": "A cozy fusion café offering contemporary brunch, breakfast, lunch, coffee, pasta, and desserts.",
+          "location": "17 Jalan Hutton",
+          "price": "RM 20-40 per person",
+          "rating": 4.5,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Siew+Mai+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Siew+Mai+2"
+            "https://www.what2seeonline.com/wp-content/uploads/2024/02/20231222_125640.jpg",
+            "https://www.what2seeonline.com/wp-content/uploads/2024/02/20231222_114845.jpg",
+            "https://www.what2seeonline.com/wp-content/uploads/2024/02/20231222_120213.jpg"
           ],
-          "tags": ["Chinese", "Dumplings", "Pork", "Seafood"]
+          "tags": ["Cafe", "Dessert", "Pasta"]
         }
       ]
     }
