@@ -105,30 +105,43 @@
 }
 
 .card-description {
-  color: #666;
-  font-size: 0.9em;
-  margin-bottom: 12px;
   flex-grow: 1;
+  margin-bottom: 16px;
+  color: #666;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limits the text to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 4.5em; /* Ensures consistent height (3 lines x line-height of 1.5) */
+  line-height: 1.5;
+  max-height: 4.5em; /* Safeguard to prevent overflow */
 }
 
 .card-details {
-  margin-bottom: 12px;
+  margin-top: auto;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
 }
 
 .detail-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 4px;
-  font-size: 0.9em;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 8px;
 }
 
 .detail-label {
-  color: #666;
-  font-weight: 500;
+  font-weight: bold;
+  color: #555;
+  min-width: 250 px;
 }
 
 .detail-value {
-  color: #333;
+  text-align: right;
+  color: #666;
+  flex: 1;
 }
 
 .card-tags {
