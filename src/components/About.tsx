@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/About.css';
 
 const About = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handleVideoClick = () => {
+    setIsPlaying(true);
+  };
+
   return (
     <div className="about">
       <section className="about-hero">
@@ -14,9 +20,18 @@ const About = () => {
       <section className="about-content">
         <div className="about-section video-section">
           <h2>Meet Our Team</h2>
-          <div className="video-container">
+          <div
+            className={`video-container ${isPlaying ? 'playing' : ''}`}
+            onClick={handleVideoClick}
+          >
+            {!isPlaying && (
+              <div className="video-placeholder">
+                <h3>About Us</h3>
+                <p>Click to Watch Our Story</p>
+              </div>
+            )}
             <iframe
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src={`https://www.youtube.com/embed/QIxXWsahP0g${isPlaying ? '?autoplay=1&vq=hd1080' : '?vq=hd1080'}`}
               title="About Penang Tourism"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -33,8 +48,8 @@ const About = () => {
         <div className="about-section">
           <h2>Our Mission</h2>
           <p>
-            We are dedicated to showcasing the vibrant culture, rich heritage, and unique experiences that Penang has to offer. 
-            Our mission is to help visitors discover the authentic charm of Penang, from its world-renowned street food to its 
+            We are dedicated to showcasing the vibrant culture, rich heritage, and unique experiences that Penang has to offer.
+            Our mission is to help visitors discover the authentic charm of Penang, from its world-renowned street food to its
             historic architecture and modern attractions.
           </p>
         </div>
@@ -48,7 +63,6 @@ const About = () => {
             <textarea placeholder="Message" rows={4}></textarea>
             <button>Send Message</button>
           </form>
-        
         </div>
       </section>
     </div>

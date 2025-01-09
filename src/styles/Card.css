@@ -92,50 +92,61 @@
 }
 
 .card-content {
-  padding: 16px;
-  flex-grow: 1;
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  min-height: 300px;
 }
 
 .card-content h3 {
-  margin: 0 0 8px 0;
+  margin: 0 0 12px 0;
   font-size: 1.2em;
   color: #333;
 }
 
 .card-description {
+  margin: 0;
+  margin-bottom: 24px;
   color: #666;
-  font-size: 0.9em;
-  margin-bottom: 12px;
-  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5;
+  min-height: 4.5em;
 }
 
 .card-details {
-  margin-bottom: 12px;
+  margin-top: auto;
+  border-top: 1px solid #eee;
+  padding-top: 16px;
 }
 
 .detail-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 4px;
-  font-size: 0.9em;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 8px;
 }
 
 .detail-label {
-  color: #666;
-  font-weight: 500;
+  font-weight: bold;
+  color: #555;
+  min-width: 85px;
 }
 
 .detail-value {
-  color: #333;
+  text-align: right;
+  color: #666;
+  flex: 1;
 }
 
 .card-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: auto;
+  margin-top: 16px;
 }
 
 .tag {

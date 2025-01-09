@@ -51,7 +51,7 @@ const Food = () => {
 
   return (
     <div className="food">
-      <section className="food-hero" style={{ backgroundImage: 'url(https://middleclass.sg/wp-content/uploads/2019/09/penang14.jpg)' }}>
+      <section className="food-hero" style={{ backgroundImage: 'url(https://image-tc.galaxy.tf/wijpeg-9xkd7jsi4osl14ht9nrfqvwyd/family-nyonya-dishes-penang.jpg?width=1920)' }}>
         <div className="food-hero-content">
           <h1>Penang Food Paradise</h1>
           <p>Discover the diverse flavors of Penang's world-renowned cuisine</p>

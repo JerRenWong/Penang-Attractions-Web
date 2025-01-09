@@ -5,20 +5,24 @@
 }
 
 .food-hero {
-  background-color: #f44336;
+  
   color: white;
   padding: 4rem 2rem;
   text-align: center;
 }
 
+
+
 .food-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: black;
 }
 
 .food-hero p {
   font-size: 1.2rem;
   opacity: 0.9;
+  color: black;
 }
 
 .food-content {

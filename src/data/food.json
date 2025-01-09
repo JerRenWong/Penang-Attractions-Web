@@ -1,64 +1,99 @@
 {
   "categories": [
     {
-      "name": "Street Food",
+      "name": "Local Favorites",
       "items": [
         {
           "id": 1,
-          "name": "Char Kway Teow",
+          "name": "Siam Road Char Kway Teow",
           "description": "Famous stir-fried flat rice noodles with prawns, cockles, and bean sprouts in a savory sauce.",
-          "location": "Siam Road Char Koay Teow",
-          "price": "RM 7-9",
-          "rating": 4.8,
+          "location": "82 Jalan Siam",
+          "price": "RM 8-15",
+          "rating": 4.2,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Char+Kway+Teow+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Char+Kway+Teow+2"
+            "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a9f899b03b6446459044a83816935e54.jpeg?w=900&h=900&org_if_sml=1",
+            "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/df7532e64fbc45268c62b879c936c248.jpeg?w=900&h=900&org_if_sml=1",
+            "https://lh3.googleusercontent.com/p/AF1QipNa049ukhPQUPHGXud8XdWQCa0jDzbbDnz-pF__=s1360-w1360-h1020"
+
           ],
           "tags": ["Noodles", "Seafood", "Spicy", "Popular"]
         },
         {
           "id": 2,
-          "name": "Penang Laksa",
+          "name": "Ayer Itam Market Assam Laksa",
           "description": "Tangy and spicy fish-based soup with thick rice noodles, topped with fresh herbs and vegetables.",
-          "location": "Air Itam Laksa",
+          "location": "Jalan Pasar",
           "price": "RM 6-8",
-          "rating": 4.7,
+          "rating": 4.1,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Penang+Laksa+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Penang+Laksa+2"
+            "https://cdn.hungryonion.org/original/2X/4/46d1101f273a672f8f3fef44a80d620df1799edd.JPG",
+            "https://i0.wp.com/www.springtomorrow.com/wp-content/uploads/2022/06/Penang-Air-Itam-Laksa-3.jpg?ssl=1",
+            "https://cdn.hungryonion.org/original/3X/c/f/cfb081c7021af9943f9cc628dfe5704dd512b5bb.jpeg"
+
           ],
           "tags": ["Noodles", "Soup", "Spicy", "Seafood"]
+        },
+        {
+          "id": 3,
+          "name": "Ali Nasi Lemak",
+          "description": "Nasi lemak wrapped in banana leaves, offering a fragrant and flavorful experience.",
+          "location": "Sri Weld Food Court",
+          "price": "RM 2-4",
+          "rating": 4.1,
+          "image": [
+            "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bc46e9c7809a40148fd51a81da1ab7c9.jpeg?w=900&h=900&org_if_sml=1",
+            "https://cdn.hungryonion.org/optimized/3X/9/8/98d80d5548052ea567ee9e264e43e3f25effa246_2_1400x964.jpeg",
+            "https://i0.wp.com/www.springtomorrow.com/wp-content/uploads/2022/06/Ali-Nasi-Lemak-2.jpg?resize=1024%2C768&ssl=1"
+          ],
+          "tags": ["Rice", "Sambal", "Spicy"]
+        },
+        {
+          "id": 4,
+          "name": "888 Hokkien Mee",
+          "description": "Prawn noodle soup with a rich and spicy broth, served with pork, prawns, and bean sprouts.",
+          "location": "67-A Lebuh Presgrave",
+          "price": "RM 8-12",
+          "rating": 4.1,
+          "image": [
+            "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/00b60718db4f4dd3860442099d71c333.jpeg?w=900&h=900&org_if_sml=1",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitLEdBfevH31RloQfHxCf577YYqbzJk6AH46RHxsQmczPDtve-v-WiraE5jMkNWty6eSSHCJHxouCKZ3DjyktOYGFghzQYUXahX46EGN5VeS77A4yYqTO5FTqNl1TAGdd0ut8TlhFbX4M/w1200-h630-p-k-no-nu/20140110_222312.jpg",
+            "https://i0.wp.com/2.bp.blogspot.com/-Vz4-80C-9d4/WGyh7Fi-ozI/AAAAAAAAhlw/GOAe0F5SkDIYT002nAdB50rPTagP-Zf8ACLcB/s1600/Photo%252B4.JPG?ssl=1"
+
+          ],
+          "tags": ["Noodles", "Soup", "Seafood", "Chinese"]
         }
       ]
     },
     {
-      "name": "Local Favorites",
+      "name": "Fine-Dining",
       "items": [
         {
-          "id": 3,
-          "name": "Nasi Kandar",
-          "description": "Rice served with various curry dishes and side dishes, a perfect blend of Indian and Malay flavors.",
-          "location": "Line Clear Nasi Kandar",
-          "price": "RM 10-15",
-          "rating": 4.6,
+          "id": 10,
+          "name": "Au Jardin",
+          "description": "An intimate fine dining experience with a modern European menu that incorporates subtle local influences.",
+          "location": "125 Jalan Timah",
+          "price": "RM 350-475 per person",
+          "rating": 4.8,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Nasi+Kandar+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Nasi+Kandar+2"
+            "https://robbreport.com.my/wp-content/uploads/2019/04/FEAT-Savour-Au-Jardin-Penang-006.jpg",
+            "https://robbreport.com.my/wp-content/uploads/2019/04/FEAT-Savour-Au-Jardin-Penang-LEAD.jpg",
+            "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/245f7b1a1e7d4240abedfa22b5937548.jpeg?w=900&h=900&org_if_sml=1"
           ],
-          "tags": ["Rice", "Curry", "Indian", "Spicy"]
+          "tags": ["European", "Fine-Dining", "Cuisine"]
         },
         {
-          "id": 4,
-          "name": "Hokkien Mee",
-          "description": "Prawn noodle soup with a rich and spicy broth, served with pork, prawns, and bean sprouts.",
-          "location": "Presgrave Street",
-          "price": "RM 8-12",
+          "id": 11,
+          "name": "Feringgi Grill",
+          "description": "Offers diners a warm, cozy ambience with views of majestic rain trees and beyond. Savour exquisitely prepared modern grill cuisine and indulge in vintage wines.",
+          "location": "Mezzanine Level, Rasa Wing Lobby, Batu Feringgi Beach",
+          "price": "RM 160-450 per person",
           "rating": 4.5,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Hokkien+Mee+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Hokkien+Mee+2"
+            "https://foodcrush.com.my/storage/images/restaurant/gallery/4475/img_21662017703.jpg",
+            "https://foodcrush.com.my/storage/images/restaurant/gallery/4475/img_51662017704.jpg",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/55/6b/67/interior.jpg?w=1800&h=1000&s=1"
           ],
-          "tags": ["Noodles", "Soup", "Seafood", "Chinese"]
+          "tags": ["Grill", "Fine-Dining", "Cuisine"]
         }
       ]
     },
@@ -67,60 +102,64 @@
       "items": [
         {
           "id": 5,
-          "name": "Cendol",
-          "description": "Traditional dessert with green rice flour jelly, coconut milk, and palm sugar syrup.",
-          "location": "Penang Road Famous Teochew Chendul",
-          "price": "RM 4-6",
-          "rating": 4.4,
+          "name": "Penang Road Famous Teochew Chendul",
+          "description": "A refreshing dessert of shaved ice, green rice flour jelly, red beans, and coconut milk, sweetened with palm sugar syrup.",
+          "location": "27 & 29 Lebuh Keng Kwee",
+          "price": "RM 5-8",
+          "rating": 4.1,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Cendol+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Cendol+2"
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/3a/0a/ad/penang-road-famous-teochew.jpg?w=1800&h=1000&s=1",
+            "https://c2.staticflickr.com/6/5347/17569767258_fa765bbfc0_c.jpg",
+            "https://i0.wp.com/penang-local.com/directorist/wp-content/uploads/2023/01/Cendol-4.jpg?fit=900%2C600&ssl=1"
           ],
           "tags": ["Dessert", "Sweet", "Cold", "Traditional"]
         },
         {
           "id": 6,
-          "name": "Ice Kacang",
-          "description": "Shaved ice dessert with red beans, sweet corn, jelly, and various syrups.",
-          "location": "New World Park Food Court",
-          "price": "RM 5-7",
-          "rating": 4.3,
+          "name": "Swatow Lane Ice Kacang",
+          "description": "A refreshing dessert featuring shaved ice, red beans, sweet corn, and a variety of syrups.",
+          "location": "102-E-1 Jalan Burma",
+          "price": "RM 6-9",
+          "rating": 4.1,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Ice+Kacang+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Ice+Kacang+2"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH75iz3N8HzauCBVVG-DHXmz1_h2kmM_m_xw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58iC_pjt3hLwLCnEUSW5YUeTQN9QR8akUYA&s",
+            "https://media2.malaymail.com/uploads/articles/2017/2017-04/ke_swatow_lane_DSC_2820_2017_04_20.JPG"
           ],
           "tags": ["Dessert", "Sweet", "Cold", "Popular"]
         }
       ]
     },
     {
-      "name": "Dim Sum",
+      "name": "Cafe",
       "items": [
         {
           "id": 7,
-          "name": "Dim Sum Feast",
-          "description": "Various steamed and fried dumplings, buns, and other Chinese delicacies.",
-          "location": "Maxim Dim Sum",
-          "price": "RM 15-25 per person",
+          "name": "Wheeler's",
+          "description": "A popular cafe in George Town offering a cozy ambiance, excellent coffee, and a menu featuring delicious Western and local fusion dishes.",
+          "location": "67 Lorong Love",
+          "price": "RM 20-40 per person",
           "rating": 4.5,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Dim+Sum+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Dim+Sum+2"
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/7e/6a/c7/food-feast.jpg?w=1400&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/bd/2e/66/our-signature-dish.jpg?w=1400&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/9c/47/a9/new-wheeler-s.jpg?w=1400&h=-1&s=1"
           ],
-          "tags": ["Chinese", "Breakfast", "Dumplings", "Tea"]
+          "tags": ["Cafe", "Fusion", "Vegetable-friendly"]
         },
         {
           "id": 8,
-          "name": "Siew Mai",
-          "description": "Steamed pork and shrimp dumplings, a dim sum classic.",
-          "location": "Ming Xiang Tai",
-          "price": "RM 5-7",
-          "rating": 4.4,
+          "name": "The FOUNDERS Hutton",
+          "description": "A cozy fusion café offering contemporary brunch, breakfast, lunch, coffee, pasta, and desserts.",
+          "location": "17 Jalan Hutton",
+          "price": "RM 20-40 per person",
+          "rating": 4.5,
           "image": [
-            "https://placehold.co/600x400/f44336/ffffff?text=Siew+Mai+1",
-            "https://placehold.co/600x400/f44336/ffffff?text=Siew+Mai+2"
+            "https://www.what2seeonline.com/wp-content/uploads/2024/02/20231222_125640.jpg",
+            "https://www.what2seeonline.com/wp-content/uploads/2024/02/20231222_114845.jpg",
+            "https://www.what2seeonline.com/wp-content/uploads/2024/02/20231222_120213.jpg"
           ],
-          "tags": ["Chinese", "Dumplings", "Pork", "Seafood"]
+          "tags": ["Cafe", "Dessert", "Pasta"]
         }
       ]
     }
