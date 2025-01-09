@@ -54,7 +54,7 @@ const Hotels = () => {
       </section>
 
       <div className="hotels-content">
-        <h2 className="search-title">Search Hotels</h2>
+        <h2 className="search-title">🏨Search Hotels🏨</h2>
         <div className="category-filter">
           <button
             className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
