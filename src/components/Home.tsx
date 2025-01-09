@@ -66,7 +66,7 @@ const Home = () => {
             <Link to="/attractions" className="highlight-card">
               <div className="highlight-image">
                 <img 
-                  src="https://example.com/attractions.jpg" 
+                  src="https://www.adventureswithfamily.com/wp-content/uploads/2015/11/Penang-Street-Art-08.png" 
                   alt="Penang Attractions"
                 />
               </div>
@@ -80,7 +80,7 @@ const Home = () => {
             <Link to="/hotels" className="highlight-card">
               <div className="highlight-image">
                 <img 
-                  src="https://placehold.co/600x400/4caf50/ffffff?text=Penang+Hotels" 
+                  src="https://www.penang-insider.com/livingpenang/wp-content/uploads/2020/11/Hard_Rock_Hotel_5_star_Penang.jpg" 
                   alt="Penang Hotels"
                 />
               </div>

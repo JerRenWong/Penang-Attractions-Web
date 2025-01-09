@@ -51,7 +51,7 @@ const Food = () => {
 
   return (
     <div className="food">
-      <section className="food-hero">
+      <section className="food-hero" style={{ backgroundImage: 'url(https://middleclass.sg/wp-content/uploads/2019/09/penang14.jpg)' }}>
         <div className="food-hero-content">
           <h1>Penang Food Paradise</h1>
           <p>Discover the diverse flavors of Penang's world-renowned cuisine</p>
@@ -59,6 +59,7 @@ const Food = () => {
       </section>
 
       <div className="food-content">
+        <h2 className="search-title">🥟Search Food🥟</h2>
         <div className="category-filter">
           <button
             className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
@@ -76,7 +77,8 @@ const Food = () => {
             </button>
           ))}
         </div>
-
+      </div>
+      <div className="food-content">
         <div className="food-grid">
           {displayItems.map(item => (
             <Card
