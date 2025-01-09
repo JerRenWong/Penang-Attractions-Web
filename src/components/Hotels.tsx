@@ -47,7 +47,7 @@ const Hotels = () => {
       </section>
 
       <div className="hotels-content">
-        <h2 className="search-title">Seacrh Hotels</h2>
+        <h2 className="search-title">🏨Seacrh Hotels🏨</h2>
         <div className="category-filter">
           <button
             className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}

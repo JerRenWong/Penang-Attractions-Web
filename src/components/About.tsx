@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/About.css';
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const About = () => {
   return (
