@@ -21,13 +21,13 @@ const Footer = () => {
           <div className="social-links">
             <strong>Social Media:</strong>
             <div className="social-icons">
-              <a href="https://www.facebook.com/pulaupinangtourism" aria-label="Facebook">
+              <a href="https://www.facebook.com" aria-label="Facebook">
                 <i className="fab fa-facebook"></i>
               </a>
-              <a href="https://www.instagram.com/penangtourism/" aria-label="Instagram">
+              <a href="https://www.instagram.com" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://x.com/PenangTravels" aria-label="Twitter">
+              <a href="https://twitter.com" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
               </a>
             </div>
