@@ -1,16 +1,23 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Card from './Card';
 import attractionsData from '../data/attractions.json';
 import { Category, AttractionsData } from '../types/attractions';
 import '../styles/Attractions.css';
 
 const Attractions = () => {
+  const location = useLocation();
+  const categoryFromNav = location.state?.category || 'all';
   const [categories, setCategories] = useState<Category[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedCategory, setSelectedCategory] = useState<string>(categoryFromNav);
 
   useEffect(() => {
     setCategories((attractionsData as AttractionsData).categories);
   }, []);
+
+  useEffect(() => {
+    setSelectedCategory(categoryFromNav);
+  }, [categoryFromNav]);
 
   const allItems = categories.flatMap(category => category.items);
   const displayItems = selectedCategory === 'all'
@@ -27,7 +34,7 @@ const Attractions = () => {
       </section>
 
       <div className="attractions-content">
-        <h2 className="search-title">🚲Seacrh Attractions🚲</h2>
+        <h2 className="search-title">🚲Search Attractions🚲</h2>
         <div className="category-filter">
           <button
             className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}

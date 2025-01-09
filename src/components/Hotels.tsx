@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Card from './Card';
 import hotelsData from '../data/hotels.json';
 import '../styles/Hotels.css';
@@ -25,12 +26,18 @@ interface HotelsData {
 }
 
 const Hotels = () => {
+  const location = useLocation();
+  const categoryFromNav = location.state?.category || 'all';
   const [categories, setCategories] = useState<Category[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedCategory, setSelectedCategory] = useState<string>(categoryFromNav);
 
   useEffect(() => {
     setCategories((hotelsData as HotelsData).categories);
   }, []);
+
+  useEffect(() => {
+    setSelectedCategory(categoryFromNav);
+  }, [categoryFromNav]);
 
   const allItems = categories.flatMap(category => category.items);
   const displayItems = selectedCategory === 'all'
@@ -47,7 +54,7 @@ const Hotels = () => {
       </section>
 
       <div className="hotels-content">
-        <h2 className="search-title">Seacrh Hotels</h2>
+        <h2 className="search-title">Search Hotels</h2>
         <div className="category-filter">
           <button
             className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
