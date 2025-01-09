@@ -6,14 +6,15 @@
         {
           "id": 1,
           "name": "Georgetown Heritage Zone",
-          "description": "UNESCO World Heritage Site featuring unique architecture, street art, and cultural landmarks.",
+          "description": "UNESCO World Heritage Site featuring unique architecture and cultural landmarks.",
           "location": "Georgetown, Penang",
           "entryFee": "Free",
           "openingHours": "24/7",
           "rating": 4.8,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Georgetown+Heritage+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Georgetown+Heritage+2"
+            "https://penang.eastin.com/wp-content/uploads/sites/125/2020/10/10.Georgetown-UNESCO-1280x700.jpg",
+            "https://th.bing.com/th/id/R.26fef56ef0d738894af01be78b9c13f2?rik=zON%2bY67OsfPFyA&riu=http%3a%2f%2fpenanghappenings.com%2fwp-content%2fuploads%2fGWTI-1-1200x800.jpg&ehk=Gztmn%2bAoU9yma4h5kh8PwL%2fD01p9ECiplJZgpHyvpVs%3d&risl=&pid=ImgRaw&r=0",
+            "https://cache3.travelfish.org/b/assets/2015/gallery/smallR/gallery_sight_smallR_514_1506934454.jpg"
           ],
           "tags": ["UNESCO", "Culture", "Architecture", "History"]
         },
@@ -26,24 +27,26 @@
           "openingHours": "11:00 AM - 3:00 PM",
           "rating": 4.6,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Blue+Mansion+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Blue+Mansion+2"
+            "https://travel2penang.org/wp-content/uploads/2019/07/cft03.jpg",
+            "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/bayb4xx5q4exn1ud9mpe/Cheong%20Fatt%20Tze%20Mansion%20Tour%20in%20Penang.jpg0",
+            "https://mediaim.expedia.com/destination/2/ad96407973fbfa6cd85997b07f69adde.jpg"
           ],
           "tags": ["Architecture", "History", "Guided Tours"]
         },
         {
-          "id": 22,
-          "name": "Ruby no Heya",
-          "description": "Myvi outside.",
-          "location": "Somewhere",
-          "entryFee": "RM 300",
-          "openingHours": "11:00 AM - 11:00 PM",
-          "rating": 3.9,
+          "id": 3,
+          "name": "Street Art Penang ",
+          "description": "An open-air gallery showcasing vibrant murals and interactive artwork across Georgetown.",
+          "location": "Georgetown, Penang",
+          "entryFee": "Free",
+          "openingHours": "24/7",
+          "rating": 4.8,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Ruby+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Ruby+2"
+            "https://travelationship.com/wp-content/uploads/2018/04/Street-Art-Penang-Malaysia.jpg",
+            "https://www.wtjournal.com/wp-content/uploads/2016/10/20150907_WS_Avenue_Penang_0088.jpg",
+            "https://th.bing.com/th/id/R.8ec22d369b50a761d79009b01927d846?rik=mvUUjRNCL702ZQ&riu=http%3a%2f%2fthenextsomewhere.com%2fwp-content%2fuploads%2f2017%2f07%2fPenangStreetArt-2.jpg&ehk=QiueOGzyGV073wdSLK62Da7gEYW1mutCoS2H1fyLiHw%3d&risl=&pid=ImgRaw&r=0"
           ],
-          "tags": ["Maid"]
+          "tags": ["Street Art","Murals","Cultural Heritage","Photography"]
         }
       ]
     },
@@ -51,7 +54,7 @@
       "name": "Religious Sites",
       "items": [
         {
-          "id": 3,
+          "id": 4,
           "name": "Kek Lok Si Temple",
           "description": "The largest Buddhist temple in Malaysia, featuring stunning architecture and a towering pagoda.",
           "location": "Air Itam",
@@ -59,13 +62,15 @@
           "openingHours": "7:00 AM - 5:30 PM",
           "rating": 4.5,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Kek+Lok+Si+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Kek+Lok+Si+2"
+            "https://cdn8.dissolve.com/p/D145_32_306/D145_32_306_1200.jpg",
+            "https://www.global-gallivanting.com/wp-content/uploads/2014/05/kekloksi.jpg",
+            "https://mia.vn/media/uploads/blog-du-lich/geogre-town-5-1707037305.jpg"
+
           ],
           "tags": ["Temple", "Buddhism", "Architecture"]
         },
         {
-          "id": 4,
+          "id": 5,
           "name": "Kapitan Keling Mosque",
           "description": "Historic mosque built in the 19th century, featuring Indo-Moorish architecture.",
           "location": "Jalan Kapitan Keling, Georgetown",
@@ -73,8 +78,9 @@
           "openingHours": "11:00 AM - 6:00 PM",
           "rating": 4.4,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Kapitan+Keling+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Kapitan+Keling+2"
+            "https://image.arrivalguides.com/x/06/2317046d96c762aebcbf3a2022d238c2.jpg",
+            "https://www.theroadtoanywhere.com/wp-content/uploads/2014/07/Kapitan-Keling-Mosque-Prayer-Hall.jpg",
+            "https://imgproxy.geocaching.com/5125606e15569567b3f1b06a574277e8662837b0?url=https:%2F%2Fpreviews.123rf.com%2Fimages%2Forpheus26%2Forpheus261710%2Forpheus26171000025%2F88953694-kapitan-keling-mosque-in-penang-malaysia-.jpg"
           ],
           "tags": ["Mosque", "Islam", "Architecture"]
         }
@@ -84,7 +90,7 @@
       "name": "Nature & Parks",
       "items": [
         {
-          "id": 5,
+          "id": 6,
           "name": "Penang Hill",
           "description": "Historic hill station offering panoramic views of the island and unique flora and fauna.",
           "location": "Air Itam",
@@ -92,13 +98,14 @@
           "openingHours": "6:30 AM - 11:00 PM",
           "rating": 4.3,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Penang+Hill+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Penang+Hill+2"
+            "https://th.bing.com/th/id/R.278945724fbde12a6f993ded8b9463aa?rik=jOYOU%2fmBfVKeIw&riu=http%3a%2f%2fwww.veelzijdigmaleisie.nl%2fattracties%2fwp-content%2fuploads%2fsites%2f4%2f2007%2f11%2fheader-penang-hill.jpg&ehk=%2bC0jor2gtnQowCDqUltFp%2bWm7xUvGyiw0xbrXomaBDA%3d&risl=&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/R.641c5d8d80e4436d972672cd3bc48c01?rik=1537ldLvq0k97w&riu=http%3a%2f%2fwww.tishineh.com%2ftour%2fPictures%2fItem%2f4691%2f56041.jpg&ehk=V1sSUMVhgLhcWq6YF8Zwgk%2bokTpGvA5Oimo7CS5OyA8%3d&risl=&pid=ImgRaw&r=0",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/fb/10/15/the-habitat-penang-hill.jpg?w=1200&h=-1&s=1"
           ],
           "tags": ["Nature", "Views", "Family", "Cable Car"]
         },
         {
-          "id": 6,
+          "id": 7,
           "name": "Penang Botanic Gardens",
           "description": "Beautiful gardens featuring tropical plants, walking trails, and local wildlife.",
           "location": "Jalan Kebun Bunga",
@@ -106,8 +113,9 @@
           "openingHours": "5:00 AM - 8:00 PM",
           "rating": 4.2,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Botanic+Gardens+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Botanic+Gardens+2"
+            "https://www.holidify.com/images/cmsuploads/compressed/4834418417_9e9a3090b2_b_20191130121011.jpg",
+            "https://www.holidaygogogo.com/wp-content/uploads/2012/08/Penang-Botanical-Gardens.jpg",
+            "https://www.buletinmutiara.com/wp-content/uploads/2023/09/LIS_2380-1-scaled.jpeg"
           ],
           "tags": ["Nature", "Walking", "Family"]
         }
@@ -117,7 +125,7 @@
       "name": "Beaches",
       "items": [
         {
-          "id": 7,
+          "id": 8,
           "name": "Batu Ferringhi",
           "description": "Popular beach destination with water sports, night markets, and beachfront resorts.",
           "location": "Batu Ferringhi",
@@ -125,13 +133,14 @@
           "openingHours": "24/7 (Night Market: 6:00 PM - 11:00 PM)",
           "rating": 4.1,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Batu+Ferringhi+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Batu+Ferringhi+2"
+            "https://th.bing.com/th/id/OIP.xX8POBxXwgGQzW7-jWfyOwHaE8?rs=1&pid=ImgDetMain",
+            "https://th.bing.com/th/id/OIP.oXVsWU1tHLAZVFSzGEVx9gHaE8?rs=1&pid=ImgDetMain",
+            "https://cj.my/wp-content/uploads/2023/05/Feringgi_Walk_Batu_Feringgi_Penang_5-740x518.jpg"
           ],
           "tags": ["Beach", "Shopping", "Water Sports"]
         },
         {
-          "id": 8,
+          "id": 9,
           "name": "Monkey Beach",
           "description": "Secluded beach accessible by hiking or boat, known for its pristine waters and wildlife.",
           "location": "Penang National Park",
@@ -139,8 +148,9 @@
           "openingHours": "24/7",
           "rating": 4.0,
           "image": [
-            "https://placehold.co/600x400/2196f3/ffffff?text=Monkey+Beach+1",
-            "https://placehold.co/600x400/2196f3/ffffff?text=Monkey+Beach+2"
+            "https://i.ytimg.com/vi/9mcL-4I_zzk/maxresdefault.jpg",
+            "https://life-to-go.com/wp-content/uploads/2015/12/Monkey-Beach-Penang-7.jpg",
+            "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_973,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/ogs29wekljc11kldn5le/MonkeyBeachTourfromPenang.jpg"
           ],
           "tags": ["Beach", "Nature", "Hiking"]
         }

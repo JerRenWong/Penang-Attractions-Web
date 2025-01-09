@@ -27,6 +27,7 @@ const Attractions = () => {
       </section>
 
       <div className="attractions-content">
+        <h2 className="search-title">🚲Seacrh Attractions🚲</h2>
         <div className="category-filter">
           <button
             className={`filter-btn ${selectedCategory === 'all' ? 'active' : ''}`}
